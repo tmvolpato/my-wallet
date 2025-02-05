@@ -17,6 +17,9 @@ MyWallet é um projeto que combina tecnologia blockchain com um backend. O siste
 - **Web3j**: Biblioteca Java para interação com a blockchain Ethereum.
 - **GraphQL**: Tecnologia utilizada para criar uma API flexível e eficiente para o backend.
 
+## Contrato
+[Contrato no PolygonScan](https://amoy.polygonscan.com/address/0x2D347c4A1e16Aac556F0aCDa1c24833f793CDe39#code)
+
 ## Funcionalidades
 - Depositar
 - Sacar
