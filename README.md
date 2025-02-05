@@ -1,4 +1,4 @@
-# MyWallet
+# MyWallet - PoC
 
 ## Descrição do Projeto
 
