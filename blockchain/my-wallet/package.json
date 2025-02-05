@@ -1,0 +1,20 @@
+{
+  "name": "my-wallet",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "npx hardhat coverage",
+    "compile": "npx hardhat compile",
+    "deploy": "npx hardhat run scripts/deploy.ts --network amoy",
+    "ignition": "npx hardhat ignition deploy ignition/modules/MyWallet.ts --network amoy"
+  },
+  "keywords": [],
+  "author": "Thiago M. Volpato",
+  "license": "MIT",
+  "devDependencies": {
+    "@nomicfoundation/hardhat-toolbox": "^5.0.0",
+    "dotenv": "^16.4.7",
+    "hardhat": "^2.22.18"
+  }
+}

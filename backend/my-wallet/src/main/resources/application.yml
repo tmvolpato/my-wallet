@@ -1,0 +1,13 @@
+spring:
+  application:
+    name: my-wallet
+
+wallet:
+  privateKey: ${WALLET_PRIVATE_KEY:your-private-key}
+
+blockchain-node:
+  url: ${BLOCKCHAIN_NODE_URL:https://polygon-amoy.infura.io/v3/your-api-key}
+  chainId: ${BLOCKCHAIN_NODE_CHAIN_ID:80002}
+
+smart-contract:
+  myWalletContractAddress: ${MY_WALLET_ADDRESS:0x0}

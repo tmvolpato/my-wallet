@@ -1,0 +1,25 @@
+type Wallet {
+    name: String!,
+    walletAddress: String!,
+    balance: Float!
+    transactions: [Transaction!]
+    updatedAt: String!
+}
+
+type Transaction {
+    transactionHash: String!,
+    transactionIndex: String!,
+    blockHash: String!,
+    from: String!,
+    to: String!,
+    revertReason: String
+}
+
+type Query {
+    balanceOf(walletAddress: String!): Float!
+}
+
+type Mutation {
+    deposit(amount: Float!): Wallet!
+    withdraw(amount: Float!): Wallet!
+}
